@@ -4,7 +4,7 @@
   "description": "Browser based game",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "node_modules/.bin/webpack serve",
     "build": "webpack --mode production",
     "lint": "eslint .",
     "test": "jest",
